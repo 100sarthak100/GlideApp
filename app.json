@@ -1,0 +1,14 @@
+{
+  "name": "mapapp",
+  "displayName": "mapapp",
+  "plugins": [
+    [
+      "@config-plugins/react-native-ble-plx",
+      {
+        "isBackgroundEnabled": true,
+        "modes": ["peripheral", "central"],
+        "bluetoothAlwaysPermission": "Allow App to connect to bluetooth devices"
+      }
+    ]
+  ]
+}
